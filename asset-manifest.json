@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.86ce556b.chunk.css",
-    "main.js": "/static/js/main.f4fd54a0.chunk.js",
-    "main.js.map": "/static/js/main.f4fd54a0.chunk.js.map",
+    "main.css": "/static/css/main.527ccdc4.chunk.css",
+    "main.js": "/static/js/main.913d8c0d.chunk.js",
+    "main.js.map": "/static/js/main.913d8c0d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6a060e8a.js",
     "runtime-main.js.map": "/static/js/runtime-main.6a060e8a.js.map",
     "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.a1881035.chunk.js": "/static/js/2.a1881035.chunk.js",
-    "static/js/2.a1881035.chunk.js.map": "/static/js/2.a1881035.chunk.js.map",
+    "static/js/2.67b169f5.chunk.js": "/static/js/2.67b169f5.chunk.js",
+    "static/js/2.67b169f5.chunk.js.map": "/static/js/2.67b169f5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5bd9b3595bea5ef4812901c106a2d7f7.js": "/precache-manifest.5bd9b3595bea5ef4812901c106a2d7f7.js",
+    "precache-manifest.30b8117cfc132b8014a7eabaaf6797c7.js": "/precache-manifest.30b8117cfc132b8014a7eabaaf6797c7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/css/main.86ce556b.chunk.css.map": "/static/css/main.86ce556b.chunk.css.map",
-    "static/js/2.a1881035.chunk.js.LICENSE.txt": "/static/js/2.a1881035.chunk.js.LICENSE.txt",
-    "static/media/Hassan-El-seoudy-Resume2020.pdf": "/static/media/Hassan-El-seoudy-Resume2020.d71c16d1.pdf",
+    "static/css/main.527ccdc4.chunk.css.map": "/static/css/main.527ccdc4.chunk.css.map",
+    "static/js/2.67b169f5.chunk.js.LICENSE.txt": "/static/js/2.67b169f5.chunk.js.LICENSE.txt",
+    "static/media/Cassbana.png": "/static/media/Cassbana.cebc9293.png",
+    "static/media/Hassan Elseoudy - Resume 2021.pdf": "/static/media/Hassan Elseoudy - Resume 2021.9ec81644.pdf",
     "static/media/Profile.png": "/static/media/Profile.56c3100b.png",
-    "static/media/Robotech.png": "/static/media/Robotech.5e05942e.png",
-    "static/media/sia.png": "/static/media/sia.ed00387d.png"
+    "static/media/Sia.jfif": "/static/media/Sia.fe93b0cc.jfif",
+    "static/media/cegedim.png": "/static/media/cegedim.db73bcce.png",
+    "static/media/robotech.png": "/static/media/robotech.82d7319e.png",
+    "static/media/rubikal.png": "/static/media/rubikal.29542e8d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6a060e8a.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.a1881035.chunk.js",
-    "static/css/main.86ce556b.chunk.css",
-    "static/js/main.f4fd54a0.chunk.js"
+    "static/js/2.67b169f5.chunk.js",
+    "static/css/main.527ccdc4.chunk.css",
+    "static/js/main.913d8c0d.chunk.js"
   ]
 }
