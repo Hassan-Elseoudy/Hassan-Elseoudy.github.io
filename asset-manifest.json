@@ -1,30 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc2e3a11.chunk.css",
-    "main.js": "/static/js/main.42fa6824.chunk.js",
-    "main.js.map": "/static/js/main.42fa6824.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.554504a0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
-    "static/js/2.f465e253.chunk.js": "/static/js/2.f465e253.chunk.js",
-    "static/js/2.f465e253.chunk.js.map": "/static/js/2.f465e253.chunk.js.map",
+    "main.css": "/static/css/main.cd623eae.css",
+    "main.js": "/static/js/main.30dea3ba.js",
+    "static/media/hassanelseoudy.png": "/static/media/hassanelseoudy.b435df1710b9694d5229.png",
+    "static/media/resume.pdf": "/static/media/resume.426c1f9adc8ba36a742e.pdf",
+    "static/media/robotech.png": "/static/media/robotech.9ab9e56146c57b785169.png",
+    "static/media/cynopsis.png": "/static/media/cynopsis.6188fd7b62f05fe3dfd6.png",
+    "static/media/Zalando-SE-logo.png": "/static/media/Zalando-SE-logo.bf24c9789d6275bad0a2.png",
+    "static/media/dhl.jpg": "/static/media/dhl.90fce989e844b9ff2e62.jpg",
+    "static/media/rubikal.png": "/static/media/rubikal.d46f0171808ebaf4092a.png",
+    "static/media/sia.jfif": "/static/media/sia.e72d9dc1e7455e0b6300.jfif",
     "index.html": "/index.html",
-    "precache-manifest.921ce9bc632f8c9a84250e183fb87990.js": "/precache-manifest.921ce9bc632f8c9a84250e183fb87990.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.fc2e3a11.chunk.css.map": "/static/css/main.fc2e3a11.chunk.css.map",
-    "static/js/2.f465e253.chunk.js.LICENSE.txt": "/static/js/2.f465e253.chunk.js.LICENSE.txt",
-    "static/media/Zalando-SE-logo.png": "/static/media/Zalando-SE-logo.a73eee60.png",
-    "static/media/cynopsis.png": "/static/media/cynopsis.27a7c712.png",
-    "static/media/dhl.jpg": "/static/media/dhl.e0935e18.jpg",
-    "static/media/hassanelseoudy.png": "/static/media/hassanelseoudy.4f1080ea.png",
-    "static/media/resume.pdf": "/static/media/resume.f60319d8.pdf",
-    "static/media/robotech.png": "/static/media/robotech.7d42b7ae.png",
-    "static/media/rubikal.png": "/static/media/rubikal.8051c654.png",
-    "static/media/sia.jfif": "/static/media/sia.fe93b0cc.jfif"
+    "main.cd623eae.css.map": "/static/css/main.cd623eae.css.map",
+    "main.30dea3ba.js.map": "/static/js/main.30dea3ba.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.554504a0.js",
-    "static/js/2.f465e253.chunk.js",
-    "static/css/main.fc2e3a11.chunk.css",
-    "static/js/main.42fa6824.chunk.js"
+    "static/css/main.cd623eae.css",
+    "static/js/main.30dea3ba.js"
   ]
 }
