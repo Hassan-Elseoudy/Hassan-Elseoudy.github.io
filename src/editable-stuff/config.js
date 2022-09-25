@@ -88,7 +88,7 @@ const experiences = {
     heading: "Experiences",
     data: [
         {
-            role: 'Mide Level Software Engineer',// Here Add Company Name
+            role: 'Mid Level Software Engineer (JVM)',// Here Add Company Name
             companylogo: require('../assets/img/Zalando-SE-logo.png'),
             date: 'Sep 2022 – Present',
         },
