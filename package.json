@@ -10,7 +10,7 @@
     "url": "https://github.com/hassan-elseoudy"
   },
   "dependencies": {
-    "axios": "^0.21.2",
+    "axios": "^1.6.0",
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
     "prop-types": "^15.7.2",
