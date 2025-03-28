@@ -9,7 +9,7 @@ const mainBody = {
     firstName: "Hassan",
     middleName: "",
     lastName: "Elseoudy",
-    message: "  Software Engineer ⚛ (Backend - Data) ⚛ Technology Enthusiast",
+    message: "Senior Software Engineer ⚛ (Backend - Data) ⚛ Technology Enthusiast",
     icons: [
         {
             image: "fa-github",
@@ -88,17 +88,22 @@ const experiences = {
     heading: "Experiences",
     data: [
         {
-            role: 'Mid Level Software Engineer (JVM)',// Here Add Company Name
+            role: 'Founder & CEO',
+            companylogo: require('../assets/img/noaat.png'),
+            date: 'Jan 2024 – Present',
+        },
+        {
+            role: 'Senior Software Engineer (JVM)',
             companylogo: require('../assets/img/Zalando-SE-logo.png'),
             date: 'Sep 2022 – Present',
         },
         {
-            role: 'Software Engineer (Python/Django)',// Here Add Company Name
+            role: 'Software Engineer (Python/Django)',
             companylogo: require('../assets/img/cynopsis.png'),
             date: 'Oct 2021 – Present',
         },
         {
-            role: 'Software Engineer (Java)',// Here Add Company Name
+            role: 'Software Engineer (Java)',
             companylogo: require('../assets/img/dhl.jpg'),
             date: 'Oct 2021 – May 2022',
         },
@@ -108,7 +113,7 @@ const experiences = {
             date: 'Jan 2021 – Jun 2022',
         },
         {
-            role: 'Cloud Native Engineer (Part time)',// Here Add Company Name
+            role: 'Cloud Native Engineer (Part time)',
             companylogo: require('../assets/img/cassbana.png'),
             date: 'Oct 2020 – Feb 2021',
         },
