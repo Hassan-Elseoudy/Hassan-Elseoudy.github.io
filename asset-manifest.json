@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.b5f87e29.css",
-    "main.js": "/static/js/main.e77384dc.js",
+    "main.js": "/static/js/main.e39f4995.js",
+    "static/media/hassanelseoudy.png": "/static/media/hassanelseoudy.371c0d4aaa4f220ec268.png",
     "static/media/resume.pdf": "/static/media/resume.5665d2c752da994b80f5.pdf",
-    "static/media/hassanelseoudy.png": "/static/media/hassanelseoudy.b2f81eeed4e7d260c52a.png",
     "static/media/robotech.png": "/static/media/robotech.9ab9e56146c57b785169.png",
     "static/media/cynopsis.png": "/static/media/cynopsis.6188fd7b62f05fe3dfd6.png",
     "static/media/Zalando-SE-logo.png": "/static/media/Zalando-SE-logo.bf24c9789d6275bad0a2.png",
@@ -12,10 +12,10 @@
     "static/media/sia.jfif": "/static/media/sia.e72d9dc1e7455e0b6300.jfif",
     "index.html": "/index.html",
     "main.b5f87e29.css.map": "/static/css/main.b5f87e29.css.map",
-    "main.e77384dc.js.map": "/static/js/main.e77384dc.js.map"
+    "main.e39f4995.js.map": "/static/js/main.e39f4995.js.map"
   },
   "entrypoints": [
     "static/css/main.b5f87e29.css",
-    "static/js/main.e77384dc.js"
+    "static/js/main.e39f4995.js"
   ]
 }
