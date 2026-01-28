@@ -1,55 +1,36 @@
 {
-  "name": "developers-portfolio",
-  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "https://hassan-elseoudy.github.io",
-  "version": "2.0.0",
+  "name": "semsem.dev",
+  "version": "0.1.0",
   "private": true,
-  "author": {
-    "name": "Hassan Elseoudy",
-    "email": "hassan.elseoudy@gmail.com",
-    "url": "https://github.com/hassan-elseoudy"
+  "scripts": {
+    "dev": "next dev",
+    "build": "next lint && next build",
+    "start": "next start"
   },
   "dependencies": {
-    "axios": "^1.6.0",
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.14.0",
-    "react-bootstrap": "^1.4.0",
-    "react-dom": "^16.14.0",
-    "react-loading-skeleton": "^2.1.1",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^5.0.1",
-    "react-typist": "^2.0.5",
-    "sass": "1.49.9",
-    "typescript": "^3.9.7"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "custom-deploy": "node pages.js"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@giscus/react": "^2.3.0",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "eslint": "^8.45.0",
+    "eslint-config-next": "^14.0.4",
+    "framer-motion": "^10.16.0",
+    "next": "^14.2.3",
+    "postcss": "8.4.31",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-github-calendar": "^4.1.5",
+    "react-icons": "^4.10.1",
+    "sharp": "^0.32.6",
+    "styled-components": "^6.1.11",
+    "tailwindcss": "3.3.3"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "@types/node": "22.13.10",
+    "@types/react": "19.0.10",
+    "@types/refractor": "^3.0.2",
+    "@vercel/analytics": "^1.0.1",
+    "next-themes": "^0.2.1",
+    "react-refractor": "^2.1.7",
+    "typescript": "5.8.2"
   }
 }

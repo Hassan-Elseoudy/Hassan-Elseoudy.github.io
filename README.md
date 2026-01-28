@@ -1,71 +1,71 @@
-<p align="center">
-  <h1 align="center">Developer's Portfolio ✨</h1>
+<div align="center">
+<a href="https://semsem.dev"><img src="./public/logo.png" width="60px"></a>
+</div>
 
-  <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. 
-    <br />
-    <br />
-    <a href="https://hassan-elseoudy.github.io">Click Me</a>
-    </p>
-</p>
+<div align="center">
+<h1>Hassan Elseoudy (semsem.dev)</h1>
+<p>My personal portfolio website</p>
+</div>
 
-## Sharing 💗
+# Tech Stack
 
-Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/config.js](src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
+- [NextJS][nextjs] - UI framework
+- [Vercel][vercel] - Hosting
+- [TailwindCSS][tailwind] / CSS - Styling and UI
+- [Framer Motion][framer] - Animations
+- [Umami][umami]: Analytics
+- [Next Themes][nexttheme]: Color Theme
+- [GitHub Actions][gh-actions]: CI/CD and Deployment
 
-## Prerequisites 🍪
+## Run Project Locally
 
-You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
+Follow this guide to get this site running locally:
 
-## Setup And Deployment 🔧
+### 1. Clone Repository
 
-1. To Get Started, Fork this repository to your GitHub account:
-2. Clone the forked repo from your account using:
+```bash
+git clone https://github.com/semsem-dev/semsem-dev.github.io.git
+cd semsem-dev.github.io
+```
 
-   ```bash
-     git clone https://github.com/<your-username>/home.git
-   ```
+### 2. Install Dependencies
 
-3. Open in editor and edit [src/editable-stuff/config.js](src/editable-stuff/config.js) file.
+```bash
+npm install
+```
 
-4. Add your resume as <resume.pdf> in place of [src/editable-stuff/resume.pdf](./src/editable-stuff/)
+### 3. Run Development Server
 
-5. Edit [title](public/index.html#L34) and meta [description](public/index.html#L13) in [public/index.html](public/index.html).
-6. Change URL in [package.json](package.json) file:
+```bash
+npm run dev
+```
 
-   ```json
-    {"homepage": "https://<your-username>.github.io/home"}
-   ```
+Visit [http://localhost:3000][localhost] to see the project live.
 
-   Or for deployment at custom domain, refer [create-react-app.dev](https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson)
+### Environment Variables
 
-7. After editing run the following bash commands:
+The following environment variables are optional but recommended for analytics:
 
-   ```bash
-   npm install
-   npm start
-   ```
+- `NEXT_PUBLIC_UMAMI_WEBSITE_ID`: Your Umami website ID.
 
-8. To deploy website, run:
+## Build
 
-   ```bash
-    npm run build
-    npm run deploy
-   ```
+```bash
+npm run build
+```
 
-   Or for deployment at \<username>.github.io, refer [READMEdocs/custom-deployment.md](READMEdocs/custom-deployment.md) and [pages.js](pages.js)
+## License & Usage
 
-9. Congrats your site is up and running. To see it live, visit:
+This portfolio is MIT-licensed so you are free to use it as an inspiration. Just make sure you link back to [semsem.dev][site] in the footer section as attribution to the original source.
 
-   ```https
-     https://<your-username>.github.io/home
-   ```
+<!-- Link Refs -->
 
-10. To change the thumbnail image:
-
-    - Navigate to the "public" folder.  
-    - There you will see "social-image.png".  
-    - Delete it.   
-    - Take a screenshot of your version and rename it "social-image.png" and place it there.  
-    
-   Next time if you make changes, repeat from step 8.
+[nextjs]: https://nextjs.org
+[vercel]: https://vercel.com
+[tailwind]: https://tailwindcss.com
+[umami]: https://umami.is
+[framer]: https://www.framer.com/motion/
+[gh-actions]: https://github.com/features/actions
+[nexttheme]: https://github.com/pacocoursey/next-themes
+[site]: https://semsem.dev
+[localhost]: http://localhost:3000
