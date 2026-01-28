@@ -59,28 +59,31 @@ export default function Certifications() {
                                 whileHover={{ scale: 1.02 }}
                             >
                                 <div className="p-4 rounded-xl dark:bg-zinc-800/50 bg-zinc-50 border dark:border-zinc-700/50 border-zinc-200">
-                                <div className="flex items-center justify-between mb-3">
-                                    <div className="flex items-center gap-3">
-                                        <span className="text-2xl">{lang.flag}</span>
-                                        <div>
-                                            <h4 className="font-semibold text-zinc-900 dark:text-zinc-100">
-                                                {lang.name}
-                                            </h4>
-                                            <span className="text-sm text-zinc-500 dark:text-zinc-400">
-                                                {lang.level}
-                                            </span>
+                                    <div className="flex items-center justify-between mb-3">
+                                        <div className="flex items-center gap-3">
+                                            <span className="text-2xl">{lang.flag}</span>
+                                            <div>
+                                                <h4 className="font-semibold text-zinc-900 dark:text-zinc-100">
+                                                    {lang.name}
+                                                </h4>
+                                                <span className="text-sm text-zinc-500 dark:text-zinc-400">
+                                                    {lang.level}
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="relative h-2 rounded-full bg-zinc-200 dark:bg-zinc-700 overflow-hidden">
-                                    <motion.div
-                                        initial={{ width: 0 }}
-                                        animate={{ width: `${lang.proficiency}%` }}
-                                        transition={{ delay: 0.5 + index * 0.2, duration: 0.8, ease: "easeOut" }}
-                                    >
-                                        <div className="absolute top-0 left-0 h-full rounded-full bg-gradient-to-r from-blue-500 to-purple-600" />
-                                    </motion.div>
-                                </div>
+                                    <div className="relative h-2 rounded-full bg-zinc-200 dark:bg-zinc-700 overflow-hidden">
+                                        <motion.div
+                                            style={{
+                                                height: "100%",
+                                                borderRadius: "9999px",
+                                                background: "linear-gradient(to right, #3b82f6, #9333ea)"
+                                            }}
+                                            initial={{ width: 0 }}
+                                            animate={{ width: `${lang.proficiency}%` }}
+                                            transition={{ delay: 0.5 + index * 0.2, duration: 0.8, ease: "easeOut" }}
+                                        />
+                                    </div>
                                 </div>
                             </motion.div>
                         ))}
@@ -99,14 +102,7 @@ export default function Certifications() {
                                 ({certificationsData.length})
                             </span>
                         </h3>
-                        <a
-                            href={LINKEDIN_CERTS_URL}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-1 text-sm text-blue-500 hover:text-blue-600 hover:underline transition-colors"
-                        >
-                            View all on LinkedIn <BiLinkExternal />
-                        </a>
+
                     </div>
 
                     <div className="space-y-6">
@@ -121,35 +117,35 @@ export default function Certifications() {
                                     animate={{ opacity: 1, y: 0 }}
                                 >
                                     <div className="p-4 rounded-xl dark:bg-zinc-800/30 bg-zinc-50/50 border dark:border-zinc-700/30 border-zinc-200/50">
-                                    <h4 className="font-semibold text-zinc-700 dark:text-zinc-300 mb-3">
-                                        {provider}
-                                    </h4>
-                                    <div className="flex flex-wrap gap-2">
-                                        {certs.map((cert, index) => (
-                                            <motion.div
-                                                key={cert.id}
-                                                initial={{ opacity: 0, scale: 0.9 }}
-                                                animate={{ opacity: 1, scale: 1 }}
-                                                transition={{ delay: index * 0.05 }}
-                                                whileHover={{
-                                                    scale: 1.05,
-                                                }}
-                                            >
-                                                <a
-                                                    href={LINKEDIN_CERTS_URL}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-sm dark:bg-zinc-800 bg-white border dark:border-zinc-700 border-zinc-200 text-zinc-700 dark:text-zinc-300 cursor-pointer transition-all duration-200 hover:border-blue-500/50 hover:bg-blue-500/5"
-                                                    title={`${cert.name} - ${cert.issueDate}`}
+                                        <h4 className="font-semibold text-zinc-700 dark:text-zinc-300 mb-3">
+                                            {provider}
+                                        </h4>
+                                        <div className="flex flex-wrap gap-2">
+                                            {certs.map((cert, index) => (
+                                                <motion.div
+                                                    key={cert.id}
+                                                    initial={{ opacity: 0, scale: 0.9 }}
+                                                    animate={{ opacity: 1, scale: 1 }}
+                                                    transition={{ delay: index * 0.05 }}
+                                                    whileHover={{
+                                                        scale: 1.05,
+                                                    }}
                                                 >
-                                                    {cert.name.length > 40
-                                                        ? cert.name.substring(0, 37) + "..."
-                                                        : cert.name}
-                                                    <BiLinkExternal className="text-xs text-zinc-400" />
-                                                </a>
-                                            </motion.div>
-                                        ))}
-                                    </div>
+                                                    <a
+                                                        href={LINKEDIN_CERTS_URL}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-sm dark:bg-zinc-800 bg-white border dark:border-zinc-700 border-zinc-200 text-zinc-700 dark:text-zinc-300 cursor-pointer transition-all duration-200 hover:border-blue-500/50 hover:bg-blue-500/5"
+                                                        title={`${cert.name} - ${cert.issueDate}`}
+                                                    >
+                                                        {cert.name.length > 40
+                                                            ? cert.name.substring(0, 37) + "..."
+                                                            : cert.name}
+                                                        <BiLinkExternal className="text-xs text-zinc-400" />
+                                                    </a>
+                                                </motion.div>
+                                            ))}
+                                        </div>
                                     </div>
                                 </motion.div>
                             );

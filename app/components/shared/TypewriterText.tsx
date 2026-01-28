@@ -63,7 +63,7 @@ export default function TypewriterText({
                     displayedText.length <= text.indexOf(paragraph) + paragraph.length + 2;
 
                 return (
-                    <motion.p
+                    <motion.div
                         key={index}
                         initial={{ opacity: 0 }}
                         animate={{
@@ -72,22 +72,22 @@ export default function TypewriterText({
                         transition={{ duration: 0.3 }}
                     >
                         <p className={`mb-4 last:mb-0 ${index < displayedParagraphs.length ? "" : "opacity-0"}`}>
-                        {displayedParagraph}
-                        {/* Blinking cursor */}
-                        {isCurrentParagraph && !isComplete && (
-                            <motion.span
-                                animate={{ opacity: [1, 0, 1] }}
-                                transition={{
-                                    repeat: Infinity,
-                                    duration: 0.8,
-                                    ease: "linear"
-                                }}
-                            >
-                                <span className="inline-block w-0.5 h-5 bg-blue-500 ml-0.5 align-middle" />
-                            </motion.span>
-                        )}
+                            {displayedParagraph}
+                            {/* Blinking cursor */}
+                            {isCurrentParagraph && !isComplete && (
+                                <motion.span
+                                    animate={{ opacity: [1, 0, 1] }}
+                                    transition={{
+                                        repeat: Infinity,
+                                        duration: 0.8,
+                                        ease: "linear"
+                                    }}
+                                >
+                                    <span className="inline-block w-0.5 h-5 bg-blue-500 ml-0.5 align-middle" />
+                                </motion.span>
+                            )}
                         </p>
-                    </motion.p>
+                    </motion.div>
                 );
             })}
             {/* Final cursor after completion */}
