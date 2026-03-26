@@ -9,7 +9,7 @@ export const jobsData: JobType[] = [
         url: "https://noaat.com", // Assumed or can be left empty
         startDate: "2024-01-01",
         endDate: "",
-        description: "Founded and scaled B2B SaaS platform from 0→1, serving 50+ restaurant clients with 99.9% uptime. Architected complete technology stack (Kotlin/Spring Boot, React Native, Next.js, AWS) and led a team of 8 engineers.",
+        description: "Founded and scaled B2B SaaS platform from 0→1, serving 10+ restaurant clients with 99.9% uptime. Architected complete technology stack (Kotlin/Spring Boot, React Native, Next.js, AWS) and led a team of 8 engineers.",
     },
     {
         _id: "zalando",
@@ -28,8 +28,7 @@ export const jobsData: JobType[] = [
         logo: "/images/companies/cynopsis.png",
         url: "https://cynopsis.co",
         startDate: "2021-10-01",
-        endDate: "",
-        customDate: "Active",
+        endDate: "2026-03-01",
         description: "Architected enterprise AML/KYC transaction monitoring platform processing 100K+ daily transactions. Led AI integration strategy building RAG-powered compliance assistant.",
     },
     {

@@ -11,6 +11,15 @@ export interface Testimonial {
 
 export const testimonialsData: Testimonial[] = [
     {
+        id: "muhammad-taufik-akbar",
+        name: "Muhammad Taufik Akbar",
+        role: "Software Engineer",
+        company: "Zalando SE",
+        relationship: "Worked together on the same team",
+        date: "March 2026",
+        text: "I've worked with Hassan since our first day at Zalando, specifically within the Inbound & Transportation domain. He's incredibly reliable and someone who truly cares about the quality of his work. What I appreciate most is how much he loves to share knowledge. He's always bringing new ideas to the table to help the team grow. On top of that, he's a really nice guy to have around. Any organization would be lucky to have him.",
+    },
+    {
         id: "mauro-sanchez",
         name: "Mauro Sanchez",
         role: "Technical Lead",
