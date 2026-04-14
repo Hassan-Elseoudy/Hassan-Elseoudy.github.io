@@ -20,4 +20,9 @@ export const visitedCountries = [
     { name: "Türkiye", code: "tr" },
     { name: "Saudi Arabia", code: "sa" },
     { name: "USA", code: "us" },
+    { name: "Finland", code: "fi" },
+    { name: "Estonia", code: "ee" },
+    { name: "Lithuania", code: "lt" },
+    { name: "Latvia", code: "lv" },
+    { name: "Slovakia", code: "sk" },
 ];
